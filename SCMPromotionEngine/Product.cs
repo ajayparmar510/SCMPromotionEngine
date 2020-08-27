@@ -9,7 +9,7 @@ namespace SCMPromotionEngine
         public Char SKU { get; set; }
         public int OrderedQty { get; set; }
         public int BulkDiscountMinQty { get; set; }
-        public int DiscountPercent { get; set; }
+        public int Discount { get; set; }
         public int Price { get; set; }
         public int SubTotal { get; set; }
     }

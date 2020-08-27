@@ -7,6 +7,7 @@ namespace SCMPromotionEngine
     interface IRuleEngine
     {
         int TotalAmount { get; set; }
-        void DiscountRule(List<Product> products);
+        int DiscountRule(List<Product> products);
     }
+
 }
